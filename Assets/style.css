@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;1,700&display=swap');
+
+* {
+    font-family: 'Roboto Mono', monospace;
+}
+
+a.navbar-brand{
+    font-weight: 700;
+    font-size: larger;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    float: left;
+}
+
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+.list-group{
+    text-align: center;
+}
+/* aside > p {
+    margin: .5rem;
+} */
